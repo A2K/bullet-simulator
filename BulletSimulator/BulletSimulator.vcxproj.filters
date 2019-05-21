@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{9f65b244-3415-4cd7-beff-03ae7b03eb9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{60ec7525-fcf7-4cba-9013-b003abf2d2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{e5e35779-0e67-4bb9-bc08-e9196f095fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{651cca86-4e08-4eb0-b84d-7400eaec0304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{fa7312a8-c40a-49fb-95c1-e31106092251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Text Rendering">
+      <UniqueIdentifier>{42248faf-6fcc-4e18-b30c-689371e2b2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities\Containers">
+      <UniqueIdentifier>{6b19bf25-b44d-4aa3-af03-fe496c147d19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Math2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPeer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Timestamp.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSegment.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CachingTextRenderer.cpp">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritePawn.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageStream.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Average.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PollEvents.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoop.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTexture.cpp">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTextureCache.cpp">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EventsHistory.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetworkServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSegment.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timestamp.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolEnums.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidPointer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPeer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePawn.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CachingTextRenderer.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTextureCache.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2Stream.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageStream.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQuality.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Average.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerBase.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexMap.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PollEvents.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoop.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Collection.h">
+      <Filter>Utilities\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTexture.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTextureCache.h">
+      <Filter>Utilities\Text Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsHistory.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
