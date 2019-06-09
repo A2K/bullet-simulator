@@ -84,7 +84,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\enet-1.3.14\include;C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\SDL2_ttf\include;C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\enet-1.3.14\include;$(ProjectDir)\SDL2_ttf\include;$(ProjectDir)\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>Common.h</PrecompiledHeaderFile>
@@ -92,7 +92,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\enet-1.3.14;C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\SDL2_ttf\lib\x64;C:\Users\a2k00\Documents\BulletSimulator\BulletSimulator\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir)\enet-1.3.14;$(ProjectDir)\SDL2_ttf\lib\x64;$(ProjectDir)\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sdl2.lib;sdl2_ttf.lib;enet64.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
