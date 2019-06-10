@@ -1,5 +1,6 @@
 #pragma once
 
+#include <string>
 #include <cstdint>
 
 
@@ -65,4 +66,5 @@ public:
   
   static bool LogNetwork; // default: false
 
+  static std::string BinaryPath;
 };

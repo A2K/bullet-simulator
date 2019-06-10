@@ -4,6 +4,7 @@
 
 #include "Rect.h"
 #include "Color.h"
+#include "Config.h"
 #include "Logger.h"
 
 #include <filesystem>
@@ -37,12 +38,21 @@ TTF_Font* Renderer::LoadFont(int size)
   auto path_abs = std::filesystem::absolute(std::filesystem::path(FontPath));  
   if (!std::filesystem::exists(path_abs))
   {
-    auto path_abs = std::filesystem::absolute(std::filesystem::path("Fonts\\" + FontPath));
+    path_abs = std::filesystem::absolute(std::filesystem::path("Fonts/" + FontPath));
     if (!std::filesystem::exists(path_abs))
     {
-      auto path_abs = std::filesystem::absolute(std::filesystem::path("..\\Fonts\\" + FontPath));
+      path_abs = std::filesystem::absolute(std::filesystem::path("../Fonts/" + FontPath));
       if (!std::filesystem::exists(path_abs))
       {
+        path_abs = std::filesystem::absolute(std::filesystem::path("../../Fonts/" + FontPath));
+        if (!std::filesystem::exists(path_abs))
+        {
+          path_abs = std::filesystem::absolute(std::filesystem::path(Config::BinaryPath + "/" + FontPath));
+          if (!std::filesystem::exists(path_abs))
+          {
+            path_abs = std::filesystem::absolute(std::filesystem::path(Config::BinaryPath + "/Fonts/" + FontPath));
+          }
+        }
       }
     }
   }

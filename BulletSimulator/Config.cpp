@@ -60,3 +60,5 @@ double Config::Acceleration = 5.0;
 bool Config::LogCollisions = false;
 
 bool Config::LogNetwork = false;
+
+std::string Config::BinaryPath;

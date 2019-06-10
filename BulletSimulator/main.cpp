@@ -47,11 +47,13 @@ static const double NS_IN_SECONDS = float(std::chrono::duration_cast<std::chrono
 
 #ifdef _MSVC_LANG
 #include <Windows.h>
-int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
+int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR argv, int nShowCmd)
 #else
-int main()
+int main(int argc, const char** argv)
 #endif
 {
+  Config::BinaryPath = argv[0];
+
   if (SDL_Init(SDL_INIT_VIDEO) == 0)
   {
     SDL_Window* window = NULL;
