@@ -7,6 +7,7 @@
 * **WASD** or **Arrows** - up/left/down/right
 * **LMB** - shoot
 * **RMB** - place wall
+* **MMB** - toggle laser sight
 #### Time control
 * **Tab** - reverse time
 * **1**...**9** - time acceleration
@@ -29,6 +30,13 @@ Press **~** to open the console. Type `help`.
 * `join 127.0.0.1 1234` - connect to port 1234 at 127.0.0.1
 * `sync` - refresh world state from server
 
+### Configuration options
+* Press **~** to open the console. 
+* Type `list` to get full list of available variables and their values.
+* To get variable current value type `get VariableName`.
+* To set variable value type `set VariableName value`.
+* **Example:** `set DestroyWallsOnCollision false`
+* *The values are not preserved between restarts*
 
 ### Libraries used
 * SDL
