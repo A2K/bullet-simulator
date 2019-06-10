@@ -1,5 +1,7 @@
 # Bullet Simulator
 
+![animation.gif](https://github.com/A2K/bullet-simulator/blob/master/animation.gif)
+
 ### Controls
 ##### Movement
 * **WASD** or **Arrows** - up/left/down/right
