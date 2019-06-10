@@ -2,7 +2,7 @@
 
 ### Controls
 ##### Movement
-* **WASD** or **Arrows** - left/right/up/down
+* **WASD** or **Arrows** - up/left/down/right
 * **LMB** - shoot
 * **RMB** - place wall
 #### Time control
