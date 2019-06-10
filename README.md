@@ -14,6 +14,7 @@
 * **~** - open console
 * **;** or **F10** - toggle debug overlay
 * **'** or **F11** - toggle events history overlay
+* **F5** - reset world
 #### Window
 * **F12** or **Alt+Enter** - toggle fullscreen
 * **Escape** - exit
