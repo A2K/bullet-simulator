@@ -25,8 +25,8 @@
 
 Press **~** to open the console. Type `help`.
 #### Example commands:
-* `bind 1234` - start a server at port 1234
-* `connect 127.0.0.1 1234` - connect to port 1234 at 127.0.0.1
+* `host 1234` - start a server at port 1234
+* `join 127.0.0.1 1234` - connect to port 1234 at 127.0.0.1
 * `sync` - refresh world state from server
 
 
